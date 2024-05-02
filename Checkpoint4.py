@@ -14,7 +14,8 @@ print(float1)
 integer1 = 5
 print(integer1)
 
-decimal1 = 2.6
+from decimal import Decimal
+decimal1 = Decimal(2.6)
 print(decimal1)
 
 dictionary1 = {
